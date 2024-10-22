@@ -8,7 +8,103 @@
     
 }
 
-body{
-    background-color: black;
-    font-family: 'Inter', sans-serif;
+:root{
+    --btn-color: rgb(230, 83, 60);
+    --color-secondary: #333;
+    --para: rgba(255, 255, 255, 0.5);
+    --text-color: rgb(230, 83, 60);
 }
+
+body{
+    background: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    color: aliceblue;
+}
+
+
+/* shared style */
+ 
+a{
+    text-decoration: none;
+    transition:  0.6s ease;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-size: 1rem;
+    color: var(--para);
+    font-weight: 400;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* header section style start */
+
+.header{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+.logo{
+    font-size: 2.2rem;
+    color: var(--btn-color);
+    font-weight: 800;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.183);
+    border-radius: 39px;
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.15rem;
+    margin-right: 2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: .5rem 1.3rem;
+    border-radius: 2rem;
+    border: none;
+    transition:0.6s ease;
+}
+
+.active{
+    background-color: var(--btn-color);
+}
+
+.navbar a:hover{
+    background-color: var(--btn-color);
+}
+
+.menu-bar{
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+    display: none;
+}
+
+/* header section style end */
+
+
+
+
+
