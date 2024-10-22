@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
 
 *{
     margin: 0;
@@ -48,6 +48,15 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.btn{
+    padding: 1rem 3rem  1rem 3rem ;
+    background-color: var(--btn-color);
+    border-radius: 2.4rem;
+    color: white;
+    font-weight: 500;
+    border: none;
 }
 
 
@@ -103,8 +112,129 @@ p{
 }
 
 /* header section style end */
+/* hero section style start  */
+
+.hero-container{
+    background: linear-gradient(180.00deg, rgba(17, 17, 17, 0.306),rgba(119, 119, 119, 0) 100%);
+}
+
+.hero-left-content{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-title{
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0.2rem;
+}
+
+.hero-title span{
+    font-family: "Updock", cursive;
+    font-size: 10rem;
+    font-weight: 300;
+
+}
+
+.hero-description{
+
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.hero-btn{
+    display: flex;
+    gap: .9rem;
+}
+
+.btn-primary{
+    padding: 1rem 3rem  1rem 3rem ;
+    background-color: transparent;
+    border-radius: 2.4rem;
+    color: white;
+    font-weight: 500;
+    border: .1rem solid wheat;
+}
 
 
+.work-out{
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    width: 192px;
+    margin-left: 200px;
+    margin-top: -455px;
+    
+}
+
+.work-out span{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: white;
+    line-height: 2.8rem;
+    margin-bottom: .8rem;
+    
+}
+.work-out p,
+.spin h4{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    margin-top: 1rem;
+    opacity: .7;
+    
+}
+
+.hero-img{
+    position: relative;
+}
+
+
+.work-video{
+    position: absolute;
+    margin-top: -100px;
+    width: 210px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 1rem;
+    margin-left: -50px;
+    margin-top: -150px;
+}
+
+.work-video{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.work{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+
+.spin span{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+/* hero section style start  */
 
 
 
