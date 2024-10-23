@@ -34,9 +34,15 @@ img{
 }
 
 p{
-    font-size: 1rem;
+    font-size: .8rem;
     color: var(--para);
     font-weight: 400;
+    line-height: 24px;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
 }
 
 .container{
@@ -314,6 +320,7 @@ p{
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
+    letter-spacing: 3px;
 }
 .run-content p{
     font-size: .8rem;
@@ -324,4 +331,46 @@ p{
 .run-image img{
     width: 450px;
     border-radius: 1rem;
+}
+
+
+.training-container{
+    margin-top: 3rem;
+}
+
+.training-title{
+    width: 580px;
+}
+.gallery{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: .65fr 1.2fr .75fr;
+    gap: .4rem;
+}
+
+.gallery1{
+    display: grid;
+    grid-template-columns: 1.05fr .70fr .85fr;
+    gap: .4rem;
+}
+
+
+.picture .img img{
+  width: 100%;
+  height: 210px;
+  border-radius: .5rem;
+  object-fit: cover;
+  display: block;
+  background: rgba(6, 255, 210, 0.5);
+ 
+
+}
+
+
+
+.picture p{
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: 40px;
+  color: black;
 }
