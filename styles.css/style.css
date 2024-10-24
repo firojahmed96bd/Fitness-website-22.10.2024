@@ -374,3 +374,91 @@ h2{
   margin-left: 40px;
   color: black;
 }
+
+
+.bmi-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.bmi-title{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.bmi{
+    width: 100%;
+    background: rgb(34, 34, 34);
+    padding: 2rem 0;
+}
+.bmi-left-content h3{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 5rem;
+}
+
+thead td{
+    font-size: 1.1rem;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+td{
+    border: 1px solid rgba(255, 255, 255, 0.429);
+    font-size: .8rem;
+    padding: 1rem 1.5rem;
+    color: rgba(240, 248, 255, 0.614);
+}
+
+.bmi-left-content,
+.bmi-right-content{
+    width: 50%;
+}
+
+
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+input {
+    background-color: #3a3a3c;
+    color: white;
+}
+
+select {
+    background-color: #3a3a3c;
+    color: white;
+}
+

@@ -50,7 +50,7 @@
         <div class="heading-title">
             <h1>Change Your Habits</h1>
             <p>Physical fitness is not only one of the most important keys to a healthy body, it is the basis of dynamic and creative intellectual activity.</p>
-            <span class="tred"></span>
+        
         </div>
 
         <div class="hobbit-content">
@@ -133,6 +133,78 @@
                 </div>
             </div>
             
+        </div>
+    </section>
+
+    <section class="bmi-container">
+        <div class="bmi-title">
+            <h2>Calculate Your BMI</h2>
+            <p>Your health account, your bank account, they’re the same thing. The more you put in, the more you can take out.</p>
+        </div>
+    </section>
+    <section class="bmi">
+        <div class="bmi-content container row">
+            <div class="bmi-left-content">
+                <h3>BMI Calculator Chart</h3>
+
+                <table >
+                   <thead>
+                     <tr>
+                        <td>BMI (kg/m²)</td>
+                        <td>Weight Status</td>
+                      </tr>
+                     </tr>
+                   </thead>
+                   <tbody>
+                      <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                      </tr>
+                      <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                      </tr>
+                      <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                      </tr>
+                      <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                      </tr>
+                   </tbody>
+        
+                </table>
+            </div>
+            <div class="bmi-right-content">
+                <div class="bmi-container">
+                    <h3>Calculate your BMI</h3>
+                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                    
+                    <form action="#">
+                        <div class="input-group">
+                            <input type="number" name="height" placeholder="Height/cm" required>
+                            <input type="number" name="weight" placeholder="Weight/kg" required>
+                        </div>
+                        
+                        <div class="input-group">
+                            <input type="number" name="age" placeholder="Age" required>
+                            <select name="sex" required>
+                                <option value="">Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <input type="number" name="age" placeholder="Select an activity factor" required>
+                        </div>
+            
+                        
+                    </form>
+                    <button type="submit" class="btn">Calculate</button>
+                </div>
+            </div>
         </div>
     </section>
 </body>
