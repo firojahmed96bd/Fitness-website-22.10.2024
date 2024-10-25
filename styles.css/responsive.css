@@ -1,0 +1,22 @@
+@media  screen and (max-width:576px) {
+    
+
+    .header .navbar{
+       display: none;
+    }
+
+    .header .menu-bar{
+        display: block;
+    }
+
+    .row,
+    .hero-container{
+        flex-direction: column;
+    
+    }
+
+    .hero-container{
+        justify-content: center;
+        padding: 2rem;
+    }
+}
