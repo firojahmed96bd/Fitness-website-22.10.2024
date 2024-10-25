@@ -1,22 +1,57 @@
-@media  screen and (max-width:576px) {
-    
-
-    .header .navbar{
-       display: none;
-    }
-
+@media only screen and (max-width:576px){
     .header .menu-bar{
         display: block;
     }
+    .header .navbar{
+        display: none;
 
-    .row,
-    .hero-container{
+    }
+    .hero-description,
+    .hero-title{
+        margin-right: 40px;
+    }
+    .row, 
+    .hero-container,
+    .hobbit-content,
+    .run-container,
+    .gallery1,
+    .gallery2{
         flex-direction: column;
-    
+    }
+    .team-gallery{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
     }
 
-    .hero-container{
-        justify-content: center;
-        padding: 2rem;
+    .team-gallery{
+        flex-direction: column;
     }
-}
+    .run-image img{
+        width: 395px;
+        position: cover;
+        border-radius: 1rem;
+    }
+
+    .run-content{
+        text-align: center;
+    }
+    .training-title{
+        width: 395px;
+        margin: auto;
+    }
+    .training-title h2,
+    .training-title p{
+        width: 450px;
+        text-align: center;
+    }
+    
+
+    .bmi-title h2,
+    .bmi-title p{
+        width: 405px;
+        padding: 1rem 2.5rem;
+    }
+
+
+}  
